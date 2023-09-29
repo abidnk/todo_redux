@@ -15,7 +15,7 @@ export const addTodo=(payload)=>{
 export const deleteAll = () =>{
     return{
         type: DELETE_ALL
-    }
+    } 
 }
 
 export const removeTodo=(payload)=>{

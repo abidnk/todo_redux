@@ -1,8 +1,6 @@
 import { ADD_TODO, DELETE_ALL, REMOVE_TODO, UPDATE_CHECKBOX, UPDATE_TODO } from "../action";
 
-const initialState=[
-   
-];
+const initialState=[];
 
 export const operationsReducer=(state=initialState, action)=>{
     switch(action.type){
