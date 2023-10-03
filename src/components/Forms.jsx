@@ -27,7 +27,7 @@ export const Form = ({editFormVisibility, editTodo, cancelUpdate}) => {
       dispatch(addTodo(todoObj))
   }
 
-  // update form submit
+
   const editSubmit = (e) =>{
     e.preventDefault();
     let editedObj={
